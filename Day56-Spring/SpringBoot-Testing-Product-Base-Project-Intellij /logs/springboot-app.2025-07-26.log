@@ -1,0 +1,301 @@
+2025-07-26 12:18:36 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-07-26 12:18:36 INFO  [restartedMain] c.e.d.SpringBootTestProductBaseProjectIntellijApplication - Starting SpringBootTestProductBaseProjectIntellijApplication using Java 23.0.2 with PID 50458 (/Users/ashujauhari/Data1/ClientBasedContent/DB-2025/Day234/DBCoreJava2025/SpringBoot-Testing-Product-Base-Project-Intellij /target/classes started by ashujauhari in /Users/ashujauhari/Data1/ClientBasedContent/DB-2025/Day234/DBCoreJava2025/SpringBoot-Testing-Product-Base-Project-Intellij )
+2025-07-26 12:18:36 INFO  [restartedMain] c.e.d.SpringBootTestProductBaseProjectIntellijApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-26 12:18:36 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-26 12:18:36 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-26 12:18:36 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-26 12:18:36 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interface.
+2025-07-26 12:18:37 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9091 (http)
+2025-07-26 12:18:37 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2025-07-26 12:18:37 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-26 12:18:37 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-07-26 12:18:37 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-26 12:18:37 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1017 ms
+2025-07-26 12:18:37 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-26 12:18:37 INFO  [restartedMain] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-07-26 12:18:37 INFO  [restartedMain] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-07-26 12:18:37 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-26 12:18:37 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-26 12:18:37 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@620c20f
+2025-07-26 12:18:37 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-26 12:18:37 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-26 12:18:37 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-26 12:18:38 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-26 12:18:38 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-26 12:18:38 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-26 12:18:39 WARN  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-07-26 12:18:39 INFO  [restartedMain] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2025-07-26 12:18:39 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+2025-07-26 12:18:39 WARN  [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-07-26 12:18:39 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-26 12:18:39 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-26 12:18:39 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-26 12:18:39 INFO  [restartedMain] o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-26 12:18:39 ERROR [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9091 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9091 or configure this application to listen on another port.
+
+2025-07-26 12:18:49 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-07-26 12:18:49 INFO  [restartedMain] c.e.d.SpringBootTestProductBaseProjectIntellijApplication - Starting SpringBootTestProductBaseProjectIntellijApplication using Java 23.0.2 with PID 50480 (/Users/ashujauhari/Data1/ClientBasedContent/DB-2025/Day234/DBCoreJava2025/SpringBoot-Testing-Product-Base-Project-Intellij /target/classes started by ashujauhari in /Users/ashujauhari/Data1/ClientBasedContent/DB-2025/Day234/DBCoreJava2025/SpringBoot-Testing-Product-Base-Project-Intellij )
+2025-07-26 12:18:49 INFO  [restartedMain] c.e.d.SpringBootTestProductBaseProjectIntellijApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-26 12:18:49 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-26 12:18:49 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-26 12:18:50 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-26 12:18:50 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interface.
+2025-07-26 12:18:51 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9091 (http)
+2025-07-26 12:18:51 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2013 ms
+2025-07-26 12:18:51 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-26 12:18:51 INFO  [restartedMain] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-07-26 12:18:51 INFO  [restartedMain] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-07-26 12:18:51 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-26 12:18:51 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-26 12:18:52 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6376455f
+2025-07-26 12:18:52 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-26 12:18:52 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-26 12:18:52 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-26 12:18:57 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-07-26 12:18:57 INFO  [restartedMain] c.e.d.SpringBootTestProductBaseProjectIntellijApplication - Starting SpringBootTestProductBaseProjectIntellijApplication using Java 23.0.2 with PID 50501 (/Users/ashujauhari/Data1/ClientBasedContent/DB-2025/Day234/DBCoreJava2025/SpringBoot-Testing-Product-Base-Project-Intellij /target/classes started by ashujauhari in /Users/ashujauhari/Data1/ClientBasedContent/DB-2025/Day234/DBCoreJava2025/SpringBoot-Testing-Product-Base-Project-Intellij )
+2025-07-26 12:18:57 INFO  [restartedMain] c.e.d.SpringBootTestProductBaseProjectIntellijApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-26 12:18:57 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-26 12:18:57 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-26 12:18:58 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-26 12:18:58 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interface.
+2025-07-26 12:18:59 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9091 (http)
+2025-07-26 12:18:59 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2025-07-26 12:18:59 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-26 12:18:59 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-07-26 12:18:59 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-26 12:18:59 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1864 ms
+2025-07-26 12:18:59 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-26 12:18:59 INFO  [restartedMain] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-07-26 12:18:59 INFO  [restartedMain] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-07-26 12:19:00 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-26 12:19:00 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-26 12:19:00 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@620c20f
+2025-07-26 12:19:00 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-26 12:19:00 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-26 12:19:00 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-26 12:19:01 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-26 12:19:01 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-26 12:19:01 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-26 12:19:02 WARN  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-07-26 12:19:02 INFO  [restartedMain] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2025-07-26 12:19:02 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+2025-07-26 12:19:02 WARN  [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-07-26 12:19:02 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-26 12:19:02 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-26 12:19:02 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-26 12:19:02 INFO  [restartedMain] o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-26 12:19:02 ERROR [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9091 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9091 or configure this application to listen on another port.
+
+2025-07-26 12:19:40 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-07-26 12:19:40 INFO  [restartedMain] c.e.d.SpringBootTestProductBaseProjectIntellijApplication - Starting SpringBootTestProductBaseProjectIntellijApplication using Java 23.0.2 with PID 50550 (/Users/ashujauhari/Data1/ClientBasedContent/DB-2025/Day234/DBCoreJava2025/SpringBoot-Testing-Product-Base-Project-Intellij /target/classes started by ashujauhari in /Users/ashujauhari/Data1/ClientBasedContent/DB-2025/Day234/DBCoreJava2025/SpringBoot-Testing-Product-Base-Project-Intellij )
+2025-07-26 12:19:40 INFO  [restartedMain] c.e.d.SpringBootTestProductBaseProjectIntellijApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-26 12:19:40 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-26 12:19:40 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-26 12:19:41 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-26 12:19:41 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interface.
+2025-07-26 12:19:41 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9091 (http)
+2025-07-26 12:19:41 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2025-07-26 12:19:41 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-26 12:19:41 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-07-26 12:19:41 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-26 12:19:41 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1577 ms
+2025-07-26 12:19:42 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-26 12:19:42 INFO  [restartedMain] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-07-26 12:19:42 INFO  [restartedMain] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-07-26 12:19:42 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-26 12:19:42 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-26 12:19:42 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@543185f2
+2025-07-26 12:19:42 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-26 12:19:42 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-26 12:19:42 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-26 12:19:43 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-26 12:19:43 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-26 12:19:43 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-26 12:19:44 WARN  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-07-26 12:19:44 INFO  [restartedMain] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2025-07-26 12:19:44 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+2025-07-26 12:19:44 WARN  [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-07-26 12:19:44 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-26 12:19:44 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-26 12:19:44 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-26 12:19:44 INFO  [restartedMain] o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-26 12:19:44 ERROR [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9091 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9091 or configure this application to listen on another port.
+
+2025-07-26 12:19:56 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-07-26 12:19:56 INFO  [restartedMain] c.e.d.SpringBootTestProductBaseProjectIntellijApplication - Starting SpringBootTestProductBaseProjectIntellijApplication using Java 23.0.2 with PID 50594 (/Users/ashujauhari/Data1/ClientBasedContent/DB-2025/Day234/DBCoreJava2025/SpringBoot-Testing-Product-Base-Project-Intellij /target/classes started by ashujauhari in /Users/ashujauhari/Data1/ClientBasedContent/DB-2025/Day234/DBCoreJava2025/SpringBoot-Testing-Product-Base-Project-Intellij )
+2025-07-26 12:19:56 INFO  [restartedMain] c.e.d.SpringBootTestProductBaseProjectIntellijApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-26 12:19:56 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-26 12:19:56 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-26 12:19:56 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-26 12:19:56 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interface.
+2025-07-26 12:19:57 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9191 (http)
+2025-07-26 12:19:57 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9191"]
+2025-07-26 12:19:57 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-26 12:19:57 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-07-26 12:19:57 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-26 12:19:57 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 928 ms
+2025-07-26 12:19:57 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-26 12:19:57 INFO  [restartedMain] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-07-26 12:19:57 INFO  [restartedMain] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-07-26 12:19:57 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-26 12:19:57 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-26 12:19:57 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2062c408
+2025-07-26 12:19:57 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-26 12:19:57 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-26 12:19:57 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-26 12:19:58 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-26 12:19:58 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-26 12:19:58 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-26 12:19:58 WARN  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-07-26 12:19:58 INFO  [restartedMain] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2025-07-26 12:19:58 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9191"]
+2025-07-26 12:19:58 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9191 (http) with context path ''
+2025-07-26 12:19:58 INFO  [restartedMain] c.e.d.SpringBootTestProductBaseProjectIntellijApplication - Started SpringBootTestProductBaseProjectIntellijApplication in 2.878 seconds (process running for 3.165)
+2025-07-26 12:20:37 INFO  [http-nio-9191-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-26 12:20:37 INFO  [http-nio-9191-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-26 12:20:37 INFO  [http-nio-9191-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2025-07-26 12:20:38 WARN  [http-nio-9191-exec-2] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-07-26 12:20:58 INFO  [http-nio-9191-exec-3] c.e.d.controller.ProductController - Info log from /test endpoint
+2025-07-26 12:20:58 DEBUG [http-nio-9191-exec-3] c.e.d.controller.ProductController - Debug log from /test endpoint
+2025-07-26 12:20:58 ERROR [http-nio-9191-exec-3] c.e.d.controller.ProductController - Error log from /test endpoint
+2025-07-26 12:20:58 WARN  [http-nio-9191-exec-4] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-07-26 12:25:38 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-07-26 12:25:38 INFO  [main] c.example.demo.ProductControllerTest - Starting ProductControllerTest using Java 23.0.2 with PID 50830 (started by ashujauhari in /Users/ashujauhari/Data1/ClientBasedContent/DB-2025/Day234/DBCoreJava2025/SpringBoot-Testing-Product-Base-Project-Intellij )
+2025-07-26 12:25:38 INFO  [main] c.example.demo.ProductControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-07-26 12:25:38 INFO  [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-07-26 12:25:38 INFO  [Thread-1] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9191"]
+2025-07-26 12:25:39 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-26 12:25:39 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-26 12:25:39 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-07-26 12:25:39 INFO  [main] c.example.demo.ProductControllerTest - Started ProductControllerTest in 1.254 seconds (process running for 1.883)
+2025-07-26 12:25:39 INFO  [main] c.e.d.controller.ProductController - Info log from /test endpoint
+2025-07-26 12:25:39 DEBUG [main] c.e.d.controller.ProductController - Debug log from /test endpoint
+2025-07-26 12:25:39 ERROR [main] c.e.d.controller.ProductController - Error log from /test endpoint
+2025-07-26 12:25:49 WARN  [Thread-1] org.apache.tomcat.util.net.Acceptor - The acceptor thread [http-nio-9191-Acceptor] did not stop cleanly
+2025-07-26 12:25:49 INFO  [Thread-1] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-26 12:25:49 INFO  [Thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-26 12:25:49 INFO  [Thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-26 12:25:49 INFO  [restartedMain] c.e.d.SpringBootTestProductBaseProjectIntellijApplication - Starting SpringBootTestProductBaseProjectIntellijApplication using Java 23.0.2 with PID 50594 (/Users/ashujauhari/Data1/ClientBasedContent/DB-2025/Day234/DBCoreJava2025/SpringBoot-Testing-Product-Base-Project-Intellij /target/classes started by ashujauhari in /Users/ashujauhari/Data1/ClientBasedContent/DB-2025/Day234/DBCoreJava2025/SpringBoot-Testing-Product-Base-Project-Intellij )
+2025-07-26 12:25:49 INFO  [restartedMain] c.e.d.SpringBootTestProductBaseProjectIntellijApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-26 12:25:49 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-26 12:25:49 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 1 JPA repository interface.
+2025-07-26 12:25:49 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9191 (http)
+2025-07-26 12:25:49 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9191"]
+2025-07-26 12:25:49 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-26 12:25:49 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-07-26 12:25:49 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-26 12:25:49 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 197 ms
+2025-07-26 12:25:49 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-26 12:25:49 INFO  [restartedMain] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-07-26 12:25:49 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-26 12:25:49 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2025-07-26 12:25:49 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@35848026
+2025-07-26 12:25:49 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2025-07-26 12:25:49 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-26 12:25:49 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-26 12:25:49 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-26 12:25:49 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-26 12:25:49 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-26 12:25:50 WARN  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-07-26 12:25:50 INFO  [restartedMain] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2025-07-26 12:25:50 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9191"]
+2025-07-26 12:25:50 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9191 (http) with context path ''
+2025-07-26 12:25:50 INFO  [restartedMain] c.e.d.SpringBootTestProductBaseProjectIntellijApplication - Started SpringBootTestProductBaseProjectIntellijApplication in 0.565 seconds (process running for 354.323)
+2025-07-26 12:25:50 INFO  [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-07-26 12:25:50 INFO  [http-nio-9191-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-26 12:25:50 INFO  [http-nio-9191-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-26 12:25:50 INFO  [http-nio-9191-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-07-26 12:25:50 INFO  [http-nio-9191-exec-1] c.e.d.controller.ProductController - Info log from /test endpoint
+2025-07-26 12:25:50 DEBUG [http-nio-9191-exec-1] c.e.d.controller.ProductController - Debug log from /test endpoint
+2025-07-26 12:25:50 ERROR [http-nio-9191-exec-1] c.e.d.controller.ProductController - Error log from /test endpoint
+2025-07-26 12:25:51 WARN  [http-nio-9191-exec-2] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-07-26 12:26:06 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-07-26 12:26:06 INFO  [main] c.e.d.SpringBootProductBaseProjectIntellijApplicationTests - Starting SpringBootProductBaseProjectIntellijApplicationTests using Java 23.0.2 with PID 50881 (started by ashujauhari in /Users/ashujauhari/Data1/ClientBasedContent/DB-2025/Day234/DBCoreJava2025/SpringBoot-Testing-Product-Base-Project-Intellij )
+2025-07-26 12:26:06 INFO  [main] c.e.d.SpringBootProductBaseProjectIntellijApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-26 12:26:07 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-26 12:26:07 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 1 JPA repository interface.
+2025-07-26 12:26:07 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-26 12:26:07 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-07-26 12:26:07 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-07-26 12:26:07 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-26 12:26:07 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-26 12:26:07 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57ed02e6
+2025-07-26 12:26:07 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-26 12:26:07 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-26 12:26:07 WARN  [main] org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-26 12:26:08 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-26 12:26:08 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-26 12:26:08 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-26 12:26:09 INFO  [main] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2025-07-26 12:26:09 INFO  [main] c.e.d.SpringBootProductBaseProjectIntellijApplicationTests - Started SpringBootProductBaseProjectIntellijApplicationTests in 2.67 seconds (process running for 3.262)
+2025-07-26 12:26:09 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-26 12:26:09 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-26 12:26:09 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-26 12:26:22 INFO  [http-nio-9191-exec-4] c.e.d.controller.ProductController - Info log from /test endpoint
+2025-07-26 12:26:22 DEBUG [http-nio-9191-exec-4] c.e.d.controller.ProductController - Debug log from /test endpoint
+2025-07-26 12:26:22 ERROR [http-nio-9191-exec-4] c.e.d.controller.ProductController - Error log from /test endpoint
+2025-07-26 12:26:23 WARN  [http-nio-9191-exec-5] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-07-26 12:26:24 INFO  [http-nio-9191-exec-6] c.e.d.controller.ProductController - Info log from /test endpoint
+2025-07-26 12:26:24 DEBUG [http-nio-9191-exec-6] c.e.d.controller.ProductController - Debug log from /test endpoint
+2025-07-26 12:26:24 ERROR [http-nio-9191-exec-6] c.e.d.controller.ProductController - Error log from /test endpoint
+2025-07-26 12:26:24 WARN  [http-nio-9191-exec-7] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-07-26 13:07:59 WARN  [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=4m9s816ms).
+2025-07-26 13:13:56 WARN  [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=5m26s884ms).
+2025-07-26 13:43:14 WARN  [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=29m17s268ms).
+2025-07-26 14:21:06 WARN  [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=12m52s499ms).
+2025-07-26 14:46:18 WARN  [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=15m41s815ms).
+2025-07-26 15:55:33 WARN  [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=17m12s951ms).
+2025-07-26 16:14:01 WARN  [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=17m58s706ms).
+2025-07-26 16:32:22 WARN  [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=18m20s801ms).
+2025-07-26 16:36:36 WARN  [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=4m13s628ms).
+2025-07-26 16:40:23 WARN  [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=3m47s816ms).
+2025-07-26 17:39:35 WARN  [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=58m41s801ms).
+2025-07-26 18:16:33 WARN  [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=36m27s775ms).
+2025-07-26 18:57:32 WARN  [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=22m28s636ms).
+2025-07-26 19:20:11 WARN  [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=17m9s653ms).
+2025-07-26 20:20:21 WARN  [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=59m39s446ms).
+2025-07-26 20:49:40 WARN  [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=6m19s255ms).
+2025-07-26 21:40:45 WARN  [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=20m34s248ms).
+2025-07-26 23:15:39 WARN  [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=52m23s765ms).

@@ -1,0 +1,40 @@
+2025-07-29 21:57:14 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-07-29 21:57:14 INFO  [main] c.example.demo.ProductControllerTest - Starting ProductControllerTest using Java 23.0.2 with PID 16741 (started by ashujauhari in /Users/ashujauhari/Data1/ClientBasedContent/DB-2025/Day234/DBCoreJava2025/SpringBoot-Testing-Product-Base-Project-Intellij )
+2025-07-29 21:57:14 INFO  [main] c.example.demo.ProductControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-07-29 21:57:15 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-29 21:57:15 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-29 21:57:15 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-07-29 21:57:15 INFO  [main] c.example.demo.ProductControllerTest - Started ProductControllerTest in 1.282 seconds (process running for 1.972)
+2025-07-29 21:57:16 INFO  [main] c.e.d.controller.ProductController - Info log from Product controller endpoint
+2025-07-29 21:57:16 DEBUG [main] c.e.d.controller.ProductController - Debug log from Product controller endpoint
+2025-07-29 21:57:16 ERROR [main] c.e.d.controller.ProductController - Error log from Product controller endpoint
+2025-07-29 21:57:31 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-07-29 21:57:31 INFO  [main] c.example.demo.ProductControllerTest - Starting ProductControllerTest using Java 23.0.2 with PID 16790 (started by ashujauhari in /Users/ashujauhari/Data1/ClientBasedContent/DB-2025/Day234/DBCoreJava2025/SpringBoot-Testing-Product-Base-Project-Intellij )
+2025-07-29 21:57:31 INFO  [main] c.example.demo.ProductControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-07-29 21:57:33 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-29 21:57:33 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-29 21:57:33 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2025-07-29 21:57:33 INFO  [main] c.example.demo.ProductControllerTest - Started ProductControllerTest in 2.521 seconds (process running for 3.958)
+2025-07-29 21:57:34 INFO  [main] c.e.d.controller.ProductController - Info log from Product controller endpoint
+2025-07-29 21:57:34 DEBUG [main] c.e.d.controller.ProductController - Debug log from Product controller endpoint
+2025-07-29 21:57:34 ERROR [main] c.e.d.controller.ProductController - Error log from Product controller endpoint
+2025-07-29 21:57:49 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-07-29 21:57:49 INFO  [main] c.example.demo.ProductControllerTest - Starting ProductControllerTest using Java 23.0.2 with PID 16839 (started by ashujauhari in /Users/ashujauhari/Data1/ClientBasedContent/DB-2025/Day234/DBCoreJava2025/SpringBoot-Testing-Product-Base-Project-Intellij )
+2025-07-29 21:57:49 INFO  [main] c.example.demo.ProductControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-07-29 21:57:51 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-29 21:57:51 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-29 21:57:51 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-07-29 21:57:51 INFO  [main] c.example.demo.ProductControllerTest - Started ProductControllerTest in 2.463 seconds (process running for 3.584)
+2025-07-29 21:57:52 INFO  [main] c.e.d.controller.ProductController - Info log from Product controller endpoint
+2025-07-29 21:57:52 DEBUG [main] c.e.d.controller.ProductController - Debug log from Product controller endpoint
+2025-07-29 21:57:52 ERROR [main] c.e.d.controller.ProductController - Error log from Product controller endpoint
+2025-07-29 21:57:59 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-07-29 21:57:59 INFO  [main] c.example.demo.ProductControllerTest - Starting ProductControllerTest using Java 23.0.2 with PID 16862 (started by ashujauhari in /Users/ashujauhari/Data1/ClientBasedContent/DB-2025/Day234/DBCoreJava2025/SpringBoot-Testing-Product-Base-Project-Intellij )
+2025-07-29 21:57:59 INFO  [main] c.example.demo.ProductControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-07-29 21:58:01 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-29 21:58:01 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-29 21:58:01 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-07-29 21:58:01 INFO  [main] c.example.demo.ProductControllerTest - Started ProductControllerTest in 2.607 seconds (process running for 3.862)
+2025-07-29 21:58:02 INFO  [main] c.e.d.controller.ProductController - Info log from Product controller endpoint
+2025-07-29 21:58:02 DEBUG [main] c.e.d.controller.ProductController - Debug log from Product controller endpoint
+2025-07-29 21:58:02 ERROR [main] c.e.d.controller.ProductController - Error log from Product controller endpoint
