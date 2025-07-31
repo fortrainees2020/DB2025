@@ -1,0 +1,113 @@
+<!--1. Block-Level Elements – Block-level elements typically start on a new line and take up the full width available to them, 
+regardless of their actual content width. This means they stack vertically and can contain other block-level elements as well as inline elements. Here are some examples of block-level elements:
+
+Examples:
+
+<div>: A general-purpose container for other elements.
+<p>: Defines a paragraph.
+<h1>, <h2>, …, <h6>: Heading elements of different levels.
+<ol>, <ul>: Ordered and unordered lists.
+<table>: Defines a table.
+<form>: Used for HTML forms to collect user inputs.
+<section>, <article>, <nav>, <aside>, <header>, <footer>: Semantic elements that define areas of a webpage.
+2. Inline Elements – Inline elements do not start on a new line; they appear on the same line as adjacent content, as long as there is space. They only take up as much width as their content requires. Inline elements are typically used within block-level elements to add content or style. Here are some examples of inline elements:
+
+Examples:
+
+<span>: A general-purpose inline container for phrasing content.
+<a>: Creates hyperlinks.
+<img>: Embeds an image.
+<strong>, <b>: Used for strong emphasis and bold text, respectively.
+<em>, <i>: Used for emphasis and italic text, respectively.
+<br>: Inserts a line break within text.
+<input>: Creates interactive controls for forms. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product and Order Details</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .product, .order-details {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .product-info, .order-info {
+            margin-top: 10px;
+        }
+        
+        .order-info {
+            background-color: #e9f7ef;
+        }
+
+        .product-info ul, .order-info ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .product-info li, .order-info li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Product Details (Block-Level) -->
+    <div class="product">
+        <h2>Product Details</h2>
+        <div class="product-info">
+            <ul>
+                <li><strong>Product Name:</strong> Smart Watch</li>
+                <li><strong>Category:</strong> Electronics</li>
+                <li><strong>Price:</strong> $199.99</li>
+                <li><strong>Availability:</strong> In Stock</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Order Details (Block-Level) -->
+    <div class="order-details">
+        <h2>Order Details</h2>
+        <div class="order-info">
+            <ul>
+                <li><strong>Order Number:</strong> #12345</li>
+                <li><strong>Customer Name:</strong> Ginie</li>
+                <li><strong>Shipping Address:</strong> 57 Main St, New York, NY</li>
+                <li><strong>Total Price:</strong> $199.99</li>
+                <li><strong>Status:</strong> Shipped</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

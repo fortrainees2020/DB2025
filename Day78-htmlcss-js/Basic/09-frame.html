@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Details</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 20px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .order-details {
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #f2f2f2; /* Light gray background */
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #00796b; /* Teal border color */
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #00796b; /* Teal background for headers */
+            color: white;
+        }
+
+        /* Link Styling */
+        a {
+            color: #039be5; /* Blue color for links */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+
+        /* Styling for the product image frame */
+        .product-image {
+            width: 100px;
+            height: 100px;
+            border: 2px solid #00796b;
+            padding: 5px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensures the image maintains aspect ratio */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Order Details</h1>
+
+    <!-- Order Details Section -->
+    <div class="order-details">
+        <h2>Order Details</h2>
+        <table>
+            <caption>Order #12345</caption>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Customer</th>
+                    <th>Shipping Address</th>
+                    <th>Total Price</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <a href="08b-LinkProduct.html" target="_blank" title="View Product Details">
+                            <!-- Product Image inside a styled frame -->
+                            <div class="product-image">
+                                <img src="https://images.pexels.com/photos/11136241/pexels-photo-11136241.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Smart Watch">
+                            </div>
+                        </a>
+                    </td>
+                    <td>Ginie</td>
+                    <td>123 Main St, New York, NY</td>
+                    <td>$199.99</td>
+                    <td>Shipped</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p><a href="08b-LinkProduct.html" target="_blank" title="Go to Product Details">Back to Product Details</a></p>
+    </div>
+</div>
+
+</body>
+</html>

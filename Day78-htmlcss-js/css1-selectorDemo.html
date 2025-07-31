@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Listing - CSS Selectors Demo</title>
+  <style>
+    /* Element Selector */
+    h2 {
+      color: darkblue;
+    }
+
+    /* ID Selector */
+    #featured-product {
+      background-color: #e6ffe6;
+      border: 2px solid green;
+    }
+
+    /* Class Selector */
+    .product {
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+    }
+
+    /* Universal Selector */
+    * {
+      font-family: Arial, sans-serif;
+    }
+
+    /* Group Selector */
+    h1, footer, .footer-note {
+      text-align: center;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Our Products</h1>
+
+  <!-- Using ID selector -->
+  <div id="featured-product" class="product">
+    <h2>Smartphone X100</h2>
+    <p>Price: $799</p>
+    <p>Special features: 5G, 128GB Storage, AMOLED Display</p>
+  </div>
+
+  <!-- Using class selector -->
+  <div class="product">
+    <h2>Wireless Headphones</h2>
+    <p>Price: $199</p>
+    <p>Noise Cancelling, Bluetooth 5.2</p>
+  </div>
+
+  <!-- Another product with same class -->
+  <div class="product">
+    <h2>Smartwatch Pro</h2>
+    <p>Price: $249</p>
+    <p>Heart Rate Monitor, GPS, Water Resistant</p>
+  </div>
+
+  <!-- Footer using group selector -->
+  <footer>
+    <p class="footer-note">&copy; 2025 Tech Store. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

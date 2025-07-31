@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product and Order Details</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 20px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .product, .order-details {
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Background Color */
+        .product {
+            background-color: #f2f2f2; /* Light gray background */
+        }
+
+        .order-details {
+            background-color: #e0f7fa; /* Light cyan background */
+        }
+
+        /* Border Color */
+        .product, .order-details {
+            border: 2px solid #00796b; /* Teal border color */
+        }
+
+        /* Text Color */
+        .product h2, .order-details h2 {
+            color: #00695c; /* Darker teal color */
+        }
+
+        /* Link Color */
+        a {
+            color: #039be5; /* Blue color for links */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+
+        .order-status {
+            background-color: #f39c12; /* Orange background for status */
+            padding: 5px;
+            border-radius: 3px;
+            color: white;
+        }
+
+        .product-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .editable-section {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #fff9c7;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Product Details Section -->
+    <div class="product">
+        <h2>Product Details</h2>
+        <p><strong>Product Name:</strong> Smart Watch</p>
+        <p><strong>Category:</strong> Electronics</p>
+        <p><strong>Price:</strong> $199.99</p>
+        <p><strong>Availability:</strong> <span class="order-status">In Stock</span></p>
+        <p><strong>Product Image:</strong></p>
+        <img src="https://via.placeholder.com/100" alt="Smart Watch" class="product-image">
+        <p><a href="https://www.example.com" target="_blank" title="View product details">View Product Details</a></p>
+    </div>
+
+    <!-- Editable Section (contenteditable) -->
+    <div class="editable-section" contenteditable="true" title="You can edit this text">
+        <p>Edit the description of the product or add your notes here. This content is editable!</p>
+    </div>
+
+    <!-- Order Details Section -->
+    <div class="order-details">
+        <h2>Order Details</h2>
+        <p><strong>Order Number:</strong> #12345</p>
+        <p><strong>Customer Name:</strong> John Doe</p>
+        <p><strong>Shipping Address:</strong> 123 Main St, New York, NY</p>
+        <p><strong>Total Price:</strong> $199.99</p>
+        <p><strong>Status:</strong> <span class="order-status">Shipped</span></p>
+        <p><strong>Tracking Link:</strong> <a href="https://www.example.com" title="Track your order">Track your order</a></p>
+    </div>
+</div>
+
+</body>
+</html>

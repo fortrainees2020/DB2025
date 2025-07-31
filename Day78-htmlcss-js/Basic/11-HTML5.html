@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form with New Form Elements</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 20px;
+            color: #333;
+        }
+
+        h1 {
+            color: #00796b;
+            text-align: center;
+        }
+
+        form {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        label {
+            font-weight: bold;
+            color: #00796b;
+            margin-top: 10px;
+            display: block;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        input[type="range"],
+        input[type="date"],
+        input[type="search"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #00796b;
+            border-radius: 4px;
+            background-color: #f4f4f4;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="number"]:focus,
+        input[type="range"]:focus,
+        input[type="date"]:focus,
+        input[type="search"]:focus,
+        select:focus,
+        textarea:focus {
+            border-color: #004d40;
+            outline: none;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        button {
+            background-color: #00796b;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #004d40;
+        }
+
+        .media-section {
+            margin-top: 20px;
+        }
+
+        .audio-video-section {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Order Form</h1>
+
+    <form action="#" method="POST">
+        <!-- Customer Name -->
+        <div class="form-section">
+            <label for="customer-name">Customer Name:</label>
+            <input type="text" id="customer-name" name="customer_name" required>
+        </div>
+
+        <!-- Email Address -->
+        <div class="form-section">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <!-- Phone Number -->
+        <div class="form-section">
+            <label for="phone">Phone Number:</label>
+            <input type="number" id="phone" name="phone" min="1000000000" max="9999999999" required>
+        </div>
+
+        <!-- Delivery Date -->
+        <div class="form-section">
+            <label for="delivery-date">Preferred Delivery Date:</label>
+            <input type="date" id="delivery-date" name="delivery_date" required>
+        </div>
+
+        <!-- Product Quantity -->
+        <div class="form-section">
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="100" required>
+        </div>
+
+        <!-- Shipping Range (Slider) -->
+        <div class="form-section">
+            <label for="shipping-range">Select Shipping Speed (Days):</label>
+            <input type="range" id="shipping-range" name="shipping_range" min="1" max="10" step="1" value="5">
+        </div>
+
+        <!-- Product Type (Search Input with Datalist) -->
+        <div class="form-section">
+            <label for="product-type">Product Type:</label>
+            <input list="product-options" id="product-type" name="product_type" required>
+            <datalist id="product-options">
+                <option value="Smartphone">
+                <option value="Laptop">
+                <option value="Smart Watch">
+                <option value="Headphones">
+                <option value="TV">
+            </datalist>
+        </div>
+
+        <!-- Search Product -->
+        <div class="form-section">
+            <label for="search-product">Search for Product:</label>
+            <input type="search" id="search-product" name="search_product">
+        </div>
+
+        <!-- Special Instructions -->
+        <div class="form-section">
+            <label for="instructions">Special Instructions:</label>
+            <textarea id="instructions" name="instructions" rows="4"></textarea>
+        </div>
+
+        <button type="submit">Submit Order</button>
+    </form>
+
+    <!-- Audio and Video Section -->
+    <div class="audio-video-section">
+        <h2>Product Information</h2>
+        <article>
+            <h3>Product Introduction Video</h3>
+            <video width="320" height="240" controls>
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </article>
+
+        <article>
+            <h3>Product Review Audio</h3>
+            <audio controls>
+                <source src="Basic/asset/mysong.mp3" type="audio/mp3">
+                Your browser does not support the audio tag.
+            </audio>
+        </article>
+    </div>
+
+</body>
+</html>

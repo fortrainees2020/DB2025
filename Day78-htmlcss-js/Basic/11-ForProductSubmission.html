@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Data Display</title>
+    < <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff; /* Light blue background */
+            margin: 20px;
+            color: #333;
+        }
+
+        h1 {
+            color: #00796b; /* Teal color for the header */
+            text-align: center;
+        }
+
+        form {
+            background-color: #ffffff; /* White background for the form */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        label {
+            font-weight: bold;
+            color: #00796b; /* Teal for labels */
+            margin-top: 10px;
+            display: block;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="file"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #00796b; /* Teal border for inputs */
+            border-radius: 4px;
+            background-color: #f4f4f4; /* Light gray background for inputs */
+        }
+
+        input[type="text"]:focus,
+        input[type="password"]:focus,
+        select:focus,
+        textarea:focus {
+            border-color: #004d40; /* Darker teal when focused */
+            outline: none;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        input[type="checkbox"],
+        input[type="radio"] {
+            margin-right: 8px;
+        }
+
+        /* Keeping radio button and label on the same line */
+        .category-radio input[type="radio"],
+        .category-radio label {
+            display: inline-block;
+            margin-right: 10px; /* Space between radio button and label */
+        }
+
+        button {
+            background-color: #00796b; /* Teal button color */
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #004d40; /* Darker teal when hovered */
+        }
+
+        .product-image {
+            background-color: #f4f4f4; /* Light gray background for file upload */
+            padding: 10px;
+            border: 1px solid #00796b;
+            border-radius: 4px;
+        }
+
+        .product-image input[type="file"] {
+            border: none;
+            background-color: transparent;
+        }
+
+        .form-section {
+            margin-bottom: 20px;
+        }
+    </style>
+    </style>
+</head>
+<body>
+
+    <h1>New Product Form</h1>
+    
+    <!-- First Form -->
+    <form id="product-form">
+        <div class="form-section">
+            <label for="product-name">Product Name:</label>
+            <input type="text" id="product-name" name="product_name" required>
+        </div>
+
+        <div class="form-section">
+            <label for="product-description">Product Description:</label>
+            <textarea id="product-description" name="product_description" rows="4" required></textarea>
+        </div>
+
+        <div class="form-section">
+            <label for="product-available">
+                <input type="checkbox" id="product-available" name="product_available" value="yes"> Available
+            </label>
+        </div>
+
+        <div class="form-section category-radio">
+            <label>Product Category:</label>
+            <input type="radio" id="electronics" name="category" value="electronics">
+            <label for="electronics">Electronics</label>
+
+            <input type="radio" id="fashion" name="category" value="fashion">
+            <label for="fashion">Fashion</label>
+
+            <input type="radio" id="home" name="category" value="home">
+            <label for="home">Home & Living</label>
+        </div>
+
+        <div class="form-section">
+            <label for="condition">Condition:</label>
+            <select id="condition" name="condition">
+                <option value="new">New</option>
+                <option value="used">Used</option>
+                <option value="refurbished">Refurbished</option>
+            </select>
+        </div>
+
+        <div class="form-section">
+            <label for="admin-password">Admin Password:</label>
+            <input type="password" id="admin-password" name="admin_password" required>
+        </div>
+
+        <button type="button" onclick="submitForm()">Submit Product</button>
+    </form>
+
+    <!-- Second Form for Displaying Data -->
+    <div id="display-data">
+        <h1>Product Data</h1>
+        <form id="product-data-display">
+            <div class="form-section">
+                <label>Product Name:</label>
+                <span id="display-product-name"></span>
+            </div>
+
+            <div class="form-section">
+                <label>Product Description:</label>
+                <span id="display-product-description"></span>
+            </div>
+
+            <div class="form-section">
+                <label>Product Availability:</label>
+                <span id="display-product-available"></span>
+            </div>
+
+            <div class="form-section">
+                <label>Product Category:</label>
+                <span id="display-category"></span>
+            </div>
+
+            <div class="form-section">
+                <label>Condition:</label>
+                <span id="display-condition"></span>
+            </div>
+
+            <div class="form-section">
+                <label>Admin Password:</label>
+                <span id="display-admin-password"></span>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        function submitForm() {
+            // Get data from the form
+            const productName = document.getElementById('product-name').value;
+            const productDescription = document.getElementById('product-description').value;
+            const productAvailable = document.getElementById('product-available').checked ? "Yes" : "No";
+            const category = document.querySelector('input[name="category"]:checked') ? document.querySelector('input[name="category"]:checked').value : "Not selected";
+            const condition = document.getElementById('condition').value;
+            const adminPassword = document.getElementById('admin-password').value;
+
+            // Display data in the second form
+            document.getElementById('display-product-name').innerText = productName;
+            document.getElementById('display-product-description').innerText = productDescription;
+            document.getElementById('display-product-available').innerText = productAvailable;
+            document.getElementById('display-category').innerText = category;
+            document.getElementById('display-condition').innerText = condition;
+            document.getElementById('display-admin-password').innerText = adminPassword;
+
+            // Hide the first form and show the second form with the data
+            document.getElementById('product-form').style.display = 'none';
+            document.getElementById('display-data').style.display = 'block';
+        }
+    </script>
+
+</body>
+</html>

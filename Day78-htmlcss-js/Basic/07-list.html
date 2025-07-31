@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Details with Lists</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 20px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .product, .order-details {
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Background Color */
+        .product {
+            background-color: #f2f2f2; /* Light gray background */
+        }
+
+        .order-details {
+            background-color: #e0f7fa; /* Light cyan background */
+        }
+
+        /* Border Color */
+        .product, .order-details {
+            border: 2px solid #00796b; /* Teal border color */
+        }
+
+        /* Text Color */
+        .product h2, .order-details h2 {
+            color: #00695c; /* Darker teal color */
+        }
+
+        /* Link Color */
+        a {
+            color: #039be5; /* Blue color for links */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+
+        .order-status {
+            background-color: #f39c12; /* Orange background for status */
+            padding: 5px;
+            border-radius: 3px;
+            color: white;
+        }
+
+        .product-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .editable-section {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #fff9c7;
+        }
+
+        /* List Styling */
+        ul, ol {
+            font-size: 16px;
+            margin-left: 20px;
+        }
+
+        ol {
+            list-style-type: decimal; /* Numbered List */
+        }
+
+        ul {
+            list-style-type: disc; /* Bulleted List */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Product and Order Details</h1>
+
+    <!-- Product Details Section -->
+    <div class="product">
+        <h2>Product Details</h2>
+        <p><strong>Product Name:</strong> Smart Watch</p>
+        <p><strong>Category:</strong> Electronics</p>
+        <p><strong>Price:</strong> $199.99</p>
+        <p><strong>Availability:</strong> <span class="order-status">In Stock</span></p>
+        
+        <p><strong>Product List (Bulleted List):</strong></p>
+        <ul>
+            <li>Color: Black</li>
+            <li>Model: X100</li>
+            <li>Features:
+                <ul>
+                    <li>Heart rate monitor</li>
+                    <li>Waterproof</li>
+                    <li>Fitness tracking</li>
+                </ul>
+            </li>
+            <li>Price: $199.99</li>
+        </ul>
+
+        <p><strong>Product List (Numbered List):</strong></p>
+        <ol>
+            <li>Watch Face: 1.5-inch AMOLED display</li>
+            <li>Battery Life: 48 hours</li>
+            <li>Included Accessories:
+                <ol>
+                    <li>Charging Cable</li>
+                    <li>User Manual</li>
+                    <li>Extra Band</li>
+                </ol>
+            </li>
+        </ol>
+
+        <p><strong>Product Image:</strong></p>
+        <img src="https://via.placeholder.com/100" alt="Smart Watch" class="product-image">
+        <p><a href="https://www.example.com" target="_blank" title="View product details">View Product Details</a></p>
+    </div>
+
+    <!-- Editable Section (contenteditable) -->
+    <div class="editable-section" contenteditable="true" title="You can edit this text">
+        <p>Edit the description of the product or add your notes here. This content is editable!</p>
+    </div>
+
+    <!-- Order Details Section -->
+    <div class="order-details">
+        <h2>Order Details</h2>
+        <table>
+            <caption>Order #12345</caption>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Customer</th>
+                    <th>Shipping Address</th>
+                    <th>Total Price</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Smart Watch</td>
+                    <td>Ginie</td>
+                    <td>123 Main St, New York, NY</td>
+                    <td>$199.99</td>
+                    <td><span class="order-status">Shipped</span></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4" style="text-align: right;">Total:</td>
+                    <td>$199.99</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</div>
+</body>
+</html>

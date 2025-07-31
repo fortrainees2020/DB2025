@@ -1,0 +1,83 @@
+<!-- product.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 20px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .product {
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #e0f7fa; /* Light cyan background */
+        }
+
+        /* Link Styling */
+        a {
+            color: #039be5; /* Blue color for links */
+            text-decoration: none;
+        }
+/*pseudo classes - A pseudo-class is used to define a special state of an element.*/ 
+    /* visited link */
+    a:visited {
+    color: #00FF00;
+    }
+        a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Product Details</h1>
+
+    <!-- Product Details Section -->
+    <div class="product">
+        <h2>Product Details</h2>
+        <p><strong>Product Name:</strong> Smart Watch</p>
+        <p><strong>Category:</strong> Electronics</p>
+        <p><strong>Price:</strong> $199.99</p>
+        <p><strong>Availability:</strong> In Stock</p>
+
+        <p><strong>Product Features:</strong></p>
+        <ul>
+            <li>Heart Rate Monitor</li>
+            <li>Waterproof</li>
+            <li>Fitness Tracking</li>
+        </ul>
+
+        <p><strong>Product Image:</strong></p>
+        <img src="https://images.pexels.com/photos/11136241/pexels-photo-11136241.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+             alt="Smart Watch" class="product-image" width="300" height="400">
+
+        <p><strong>Order Now:</strong></p>
+        <p><a href="08a-LinkOrder.html" target="_blank" title="View Order Details">View Order Details</a></p>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Details - Table Format</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 20px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #00796b; /* Teal border color */
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #00796b; /* Teal background for headers */
+            color: white;
+        }
+
+        caption {
+            font-size: 24px;
+            font-weight: bold;
+            padding: 10px;
+            background-color: #e0f7fa;
+            color: #00796b;
+        }
+
+        tfoot {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Order Details</h1>
+
+    <!-- Order Details Table -->
+    <table>
+        <caption>Order #12345</caption>
+
+        <!-- Table Header -->
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Customer</th>
+                <th>Shipping Address</th>
+                <th>Total Price</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+
+        <!-- Table Body -->
+        <tbody>
+            <tr>
+                <td>Smart Watch</td>
+                <td>Ginie</td>
+                <td>123 Main St, New York, NY</td>
+                <td>$199.99</td>
+                <td><span class="order-status" style="background-color: #f39c12; color: white; padding: 5px; border-radius: 3px;">Shipped</span></td>
+            </tr>
+        </tbody>
+
+        <!-- Table Footer (Optional, for summaries or totals) -->
+        <tfoot>
+            <tr>
+                <td colspan="4" style="text-align: right;">Total:</td>
+                <td>$199.99</td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+
+</body>
+</html>

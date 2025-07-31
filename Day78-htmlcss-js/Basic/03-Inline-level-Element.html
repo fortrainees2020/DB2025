@@ -1,0 +1,122 @@
+
+<!--Inline elements are elements that:
+
+Do not start on a new line
+
+Only take up as much width as needed
+
+Are typically used inside block-level elements
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product and Order Details</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .product, .order-details {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .product-info, .order-info {
+            margin-top: 10px;
+        }
+
+        .order-info {
+            background-color: #e9f7ef;
+        }
+
+        .product-info ul, .order-info ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .product-info li, .order-info li {
+            margin-bottom: 10px;
+        }
+
+        /* Inline styling for specific elements */
+        .highlight {
+            color: #e74c3c; /* Highlighted text color */
+            font-weight: bold;
+        }
+
+        .product-link {
+            color: #3498db;
+            text-decoration: none;
+        }
+        
+        .product-link:hover {
+            text-decoration: underline;
+        }
+        
+        .product-image {
+            width: 50px;
+            height: 50px;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Product Details (Block-Level) -->
+    <div class="product">
+        <h2>Product Details</h2>
+        <div class="product-info">
+            <ul>
+                <li><strong>Product Name:</strong> <span class="highlight">Smart Watch</span></li>
+                <li><strong>Category:</strong> Electronics</li>
+                <li><strong>Price:</strong> <span class="highlight">$199.99</span></li>
+                <li><strong>Availability:</strong> <span class="highlight">In Stock</span></li>
+                <li><strong>Product Image:</strong> <img class="product-image" src="https://via.placeholder.com/50" alt="Smart Watch"></li>
+                <li><a href="#" class="product-link">View More Details</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Order Details (Block-Level) -->
+    <div class="order-details">
+        <h2>Order Details</h2>
+        <div class="order-info">
+            <ul>
+                <li><strong>Order Number:</strong> #12345</li>
+                <li><strong>Customer Name:</strong> <span class="highlight">Ginie</span></li>
+                <li><strong>Shipping Address:</strong> <span class="highlight">57 Main St, New York, NY</span></li>
+                <li><strong>Total Price:</strong> <span class="highlight">$199.99</span></li>
+                <li><strong>Status:</strong> <span class="highlight">Shipped</span></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

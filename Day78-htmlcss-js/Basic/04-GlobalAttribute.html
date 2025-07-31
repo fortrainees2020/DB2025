@@ -1,0 +1,138 @@
+<!--Global attributes are attributes that can be applied to any HTML element, regardless of its tag name.
+They are part of the HTML specification and provide common functionality like styling, accessibility, and behavior.
+Attribute	Where It’s Used	Purpose
+id	<div id="product-section">	Uniquely identifies an element
+class	<div class="product">, <span class="order-status">	Assigns CSS class(es)
+title	<span title="Available for purchase">	Tooltip text on hover
+lang	<div lang="es">	Specifies the language of element’s content
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product and Order Details</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .product, .order-details {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .product-info, .order-info {
+            margin-top: 10px;
+        }
+
+        .product-info ul, .order-info ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .product-info li, .order-info li {
+            margin-bottom: 10px;
+        }
+
+        /* Styling for images */
+        .product-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .order-status {
+            background-color: #f39c12;/* Orange color */
+            padding: 5px;
+            border-radius: 3px;
+            color: white;
+        }
+
+        .order-link {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        .order-link:hover {
+            text-decoration: underline;
+        }
+        
+        .editable-section {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #fff9c7;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Product Details (Block-Level) -->
+    <div class="product" id="product-section">
+        <h2>Product Details</h2>
+        <div class="product-info">
+            <ul>
+                <li><strong>Product Name:</strong> Smart Watch</li>
+                <li><strong>Category:</strong> Electronics</li>
+                <li><strong>Price:</strong> $199.99</li>
+                <li><strong>Availability:</strong> <span class="order-status" title="Available for purchase">In Stock</span></li>
+                <li><strong>Product Image:</strong> <img src="https://images.pexels.com/photos/11136241/pexels-photo-11136241.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                                                        alt="Smart Watch" 
+                                                        class="product-image" 
+                                                        title="Smart Watch Image"></li>
+                <li><a href="https://www.exa.com" class="order-link" target="_blank" title="View product details">View Product Details</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Editable Section (contenteditable) -->
+    <div class="editable-section" contenteditable="true" title="You can edit this text">
+        <p>Edit the description of the product or add your notes here. This content is editable!</p>
+    </div>
+
+    <!-- Order Details (Block-Level) -->
+    <div class="order-details" id="order-section">
+        <h2>Order Details</h2>
+        <div class="order-info">
+            <ul>
+                <li><strong>Order Number:</strong> #12345</li>
+                <li><strong>Customer Name:</strong> Genie</li>
+                <li><strong>Shipping Address:</strong> 123 Main St, New York, NY</li>
+                <li><strong>Total Price:</strong> $199.99</li>
+                <li><strong>Status:</strong> <span class="order-status" title="Shipped">Shipped</span></li>
+                <li><strong>Tracking Link:</strong> <a href="https://www.example.com" class="order-link" title="Track your order">Track your order</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Lang Attribute for Language -->
+    <div lang="es">
+        <p>This section is in Spanish using the <strong>lang</strong> attribute.</p>
+    </div> 
+</div>
+</body>
+</html>
